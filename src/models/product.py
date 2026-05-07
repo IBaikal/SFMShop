@@ -3,8 +3,8 @@ class Product:
         self.name = name
         self.price = price
         self.quantity = quantity
-    
-    def get_total_price(self): # Конфликт тут)
+
+    def get_total_price(self):  # Тестим git merge
         return self.price * self.quantity
 
     def apply_discount(self):
@@ -15,5 +15,3 @@ class Product:
 
     def update_stock(self):
         pass
-    
-        
