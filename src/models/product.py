@@ -15,3 +15,6 @@ class Product:
 
     def update_stock(self):
         pass
+    
+    def get_category(self):
+        pass
