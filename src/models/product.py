@@ -15,3 +15,5 @@ class Product:
 
     def update_stock(self):
         pass
+    def calculate_shipping(self):
+        pass
