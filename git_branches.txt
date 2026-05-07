@@ -1,0 +1,13 @@
+  feature/add-caching
+  feature/add-discount-system
+  feature/add-inventory-management
+  feature/add-logging
+  feature/add-shipping
+  feature/test-conflict
+* main
+  remotes/origin/feature/add-caching
+  remotes/origin/feature/add-discount-system
+  remotes/origin/feature/add-inventory-management
+  remotes/origin/feature/add-logging
+  remotes/origin/feature/add-shipping
+  remotes/origin/main

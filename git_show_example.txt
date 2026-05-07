@@ -1,0 +1,17 @@
+commit 245a2f49f16fab7c1ae61db7e1ab8bee8fd5a305
+Author: Roman S <rom.superman@yandex.ru>
+Date:   Thu May 7 22:16:18 2026 +0700
+
+    Добавлен метод get_category в Product
+
+diff --git a/src/models/product.py b/src/models/product.py
+index 3aabeba..aabe4b9 100644
+--- a/src/models/product.py
++++ b/src/models/product.py
+@@ -15,3 +15,6 @@ class Product:
+ 
+     def update_stock(self):
+         pass
++    
++    def get_category(self):
++        pass

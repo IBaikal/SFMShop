@@ -1,0 +1,109 @@
+commit 245a2f49f16fab7c1ae61db7e1ab8bee8fd5a305
+Author: Roman S <rom.superman@yandex.ru>
+Date:   Thu May 7 22:16:18 2026 +0700
+
+    Добавлен метод get_category в Product
+
+ src/models/product.py | 3 +++
+ 1 file changed, 3 insertions(+)
+
+commit e2bfd3922cb380623562017e2230e368cc461f97
+Merge: 3deeb31 7f7af2f
+Author: Roman S <rom.superman@yandex.ru>
+Date:   Thu May 7 22:07:33 2026 +0700
+
+    Разрешён конфликт в product.py
+
+commit 3deeb31bae738ce8f932c2818834f3681d5b341b
+Author: Roman S <rom.superman@yandex.ru>
+Date:   Thu May 7 21:59:52 2026 +0700
+
+    Изменен метод get_total_price в main
+
+ src/models/product.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 7f7af2f525e540174356b0f1df682e049884335e
+Author: Roman S <rom.superman@yandex.ru>
+Date:   Thu May 7 21:53:26 2026 +0700
+
+    Изменен метод get_total_price в feature/test-conflict
+
+ src/models/product.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 905553923d4db1cc6b52f2558458f78e283d102c
+Author: Roman S <rom.superman@yandex.ru>
+Date:   Thu May 7 16:22:17 2026 +0700
+
+    Добавлены методы управления складом в класс Product
+
+ src/models/product.py | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+commit fb486588f967b35eb30893968f0c78df1ffde266
+Merge: 1daf434 2a8a359
+Author: Roman S <rom.superman@yandex.ru>
+Date:   Thu May 7 14:44:27 2026 +0700
+
+    Merge branch 'feature/add-discount-system' of https://github.com/IBaikal/SFMShop into feature/add-discount-system
+
+commit 1daf434c29a73f7bd53cfb20b50468e7c85e16af
+Author: Roman S <rom.superman@yandex.ru>
+Date:   Thu May 7 14:41:57 2026 +0700
+
+    Добавлен .gitigore и все файлы проекта
+
+ .gitignore                    | 26 ++++++++++++++++++++++++++
+ README.md                     |  6 ++++++
+ data/orders.txt               |  4 ++++
+ data/processed_orders.txt     |  2 ++
+ data/products.txt             |  3 +++
+ data/products_with_prices.txt |  3 +++
+ requirements.txt              |  0
+ src/__init__.py               |  0
+ src/models/__init__.py        |  0
+ src/models/exceptions.py      | 27 +++++++++++++++++++++++++++
+ src/models/order.py           | 10 ++++++++++
+ src/models/payment.py         | 24 ++++++++++++++++++++++++
+ src/models/user.py            |  7 +++++++
+ src/utils/__init__.py         |  0
+ src/utils/order_processor.py  |  3 +++
+ 15 files changed, 115 insertions(+)
+
+commit 2a8a359c2ed06894b80c34073bd57dd6058a7fc9
+Author: Rom (Роман Стрекаловский) <153969261+IBaikal@users.noreply.github.com>
+Date:   Thu May 7 14:21:36 2026 +0700
+
+    Create new
+
+ src/new | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 6de6dfc12c2cfc7cf6aaedab6cb001c33accbce0
+Author: Roman S <rom.superman@yandex.ru>
+Date:   Wed May 6 20:05:11 2026 +0700
+
+    Добавлена системма скидок в класс Product
+
+ src/models/product.py | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+
+commit 25de6a5ad9fa07e7758b1a9a037adfe3138b6951
+Author: Roman S <rom.superman@yandex.ru>
+Date:   Wed May 6 19:50:36 2026 +0700
+
+    Добавлены уроки блока 2: ООП
+
+ src/utils/calculations.py |  8 ++++++++
+ src/utils/validators.py   | 11 +++++++++++
+ 2 files changed, 19 insertions(+)
+
+commit 24ae868844754ea8d7cc23c767148ef6776649ed
+Author: Roman S <rom.superman@yandex.ru>
+Date:   Wed May 6 19:28:39 2026 +0700
+
+    Добавлены уроки блока 1: основы Python
+
+ src/main.py | 962 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 962 insertions(+)

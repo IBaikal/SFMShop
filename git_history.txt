@@ -1,0 +1,24 @@
+* b82ded6 Добавлена система кэширования
+| * cfc4172 Добавлена система логирования
+|/  
+| *   df4929c Объедены изменения из main
+| |\  
+| |/  
+|/|   
+* | 245a2f4 Добавлен метод get_category в Product
+| * 79ea851 Добавлен метод calculate_shipping в Product
+|/  
+*   e2bfd39 Разрешён конфликт в product.py
+|\  
+| * 7f7af2f Изменен метод get_total_price в feature/test-conflict
+* | 3deeb31 Изменен метод get_total_price в main
+|/  
+* 9055539 Добавлены методы управления складом в класс Product
+*   fb48658 Merge branch 'feature/add-discount-system' of https://github.com/IBaikal/SFMShop into feature/add-discount-system
+|\  
+| * 2a8a359 Create new
+* | 1daf434 Добавлен .gitigore и все файлы проекта
+|/  
+* 6de6dfc Добавлена системма скидок в класс Product
+* 25de6a5 Добавлены уроки блока 2: ООП
+* 24ae868 Добавлены уроки блока 1: основы Python
