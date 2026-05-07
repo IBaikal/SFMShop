@@ -4,7 +4,7 @@ class Product:
         self.price = price
         self.quantity = quantity
     
-    def get_total_price(self):
+    def get_total_price(self): # Конфликт тут)
         return self.price * self.quantity
 
     def apply_discount(self):
